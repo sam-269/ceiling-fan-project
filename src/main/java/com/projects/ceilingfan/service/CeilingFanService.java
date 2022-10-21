@@ -33,11 +33,11 @@ public class CeilingFanService {
     public String reverseSpeed(){
         if (fan.getSpeedChangeDirection().equals("forward")){
             fan.setSpeedChangeDirection("backward");
-            return "Fan speed direction is backward";
+            return "Fan speed direction is now backward";
         }
         else{
             fan.setSpeedChangeDirection("forward");
-            return "Fan speed direction is forward";
+            return "Fan speed direction is now forward";
         }
     }
 }

@@ -14,8 +14,8 @@ public class CeilingFanController {
     private CeilingFanService fanService;
 
     @GetMapping("changespeed")
-    public int changeSpeed(){
-        return fanService.changeSpeed();
+    public String changeSpeed(){
+        return "The fan speed is now : " + fanService.changeSpeed();
     }
 
     @GetMapping("reversespeed")
