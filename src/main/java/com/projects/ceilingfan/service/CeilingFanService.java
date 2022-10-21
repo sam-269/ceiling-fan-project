@@ -1,38 +1,43 @@
 package com.projects.ceilingfan.service;
 
+import com.projects.ceilingfan.model.Fan;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class CeilingFanService {
 
-    int speed = 0;
-    private boolean reverse = false;
+    @Autowired
+    private Fan fan;
 
     public int changeSpeed(){
 
-        if (reverse== false){
+        int speed = fan.getSpeed();
+
+        if (fan.getSpeedChangeDirection().equals("forward")){
             speed++;
-            if (speed > 3 ){
+            if (speed > fan.getMaxSpeed() ){
                 speed = 0;
             }
         }
         else{
             speed--;
             if (speed < 0){
-                speed = 3;
+                speed = fan.getMaxSpeed();
             }
         }
+        fan.setSpeed(speed);
         return speed;
     }
 
     public String reverseSpeed(){
-        if (reverse == true){
-            reverse = false;
-            return "Fan speed direction is forward";
+        if (fan.getSpeedChangeDirection().equals("forward")){
+            fan.setSpeedChangeDirection("backward");
+            return "Fan speed direction is backward";
         }
         else{
-            reverse = true;
-            return "Fan speed direction is backward";
+            fan.setSpeedChangeDirection("forward");
+            return "Fan speed direction is forward";
         }
     }
 }

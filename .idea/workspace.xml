@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b95609-0366-47e2-86dc-f0a5794b4fe3" name="Default Changelist" comment="" />
+    <list default="true" id="a4b95609-0366-47e2-86dc-f0a5794b4fe3" name="Default Changelist" comment="Final code">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceiling-fan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ceiling-fan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/projects/ceilingfan/service/CeilingFanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projects/ceilingfan/service/CeilingFanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/projects/ceilingfan/service/CeilingFanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/projects/ceilingfan/service/CeilingFanService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +35,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="CeilingFanApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -35,7 +45,7 @@
       <module name="ceiling-fan" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.projects.ceilingfan.*" />
+          <option name="PATTERN" value="com.projects.ceilingfan.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,57 +77,67 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final code" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1666338665882">
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1666373458695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1666338665882" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1666373458695" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1666376128100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1666376128100" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1666284186859">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1666284186859" />
-    <state width="1237" height="432" key="GridCell.Tab.0.bottom" timestamp="1666342088566">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1666376197114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="432" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666342088566" />
-    <state width="1237" height="432" key="GridCell.Tab.0.center" timestamp="1666342088563">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666376197114" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1666376197114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="432" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666342088563" />
-    <state width="1237" height="432" key="GridCell.Tab.0.left" timestamp="1666342088560">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1666376197114" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1666376197114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="432" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666342088560" />
-    <state width="1237" height="432" key="GridCell.Tab.0.right" timestamp="1666342088563">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1666376197114" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1666376197114">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="432" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666342088563" />
-    <state width="1237" height="288" key="GridCell.Tab.1.bottom" timestamp="1666339916840">
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1666376197114" />
+    <state width="1237" height="288" key="GridCell.Tab.1.bottom" timestamp="1666345429989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="288" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666339916840" />
-    <state width="1237" height="288" key="GridCell.Tab.1.center" timestamp="1666339916840">
+    <state width="1237" height="288" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1666345429989" />
+    <state width="1237" height="288" key="GridCell.Tab.1.center" timestamp="1666345429989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="288" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666339916840" />
-    <state width="1237" height="288" key="GridCell.Tab.1.left" timestamp="1666339916840">
+    <state width="1237" height="288" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1666345429989" />
+    <state width="1237" height="288" key="GridCell.Tab.1.left" timestamp="1666345429989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="288" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666339916840" />
-    <state width="1237" height="288" key="GridCell.Tab.1.right" timestamp="1666339916840">
+    <state width="1237" height="288" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1666345429989" />
+    <state width="1237" height="288" key="GridCell.Tab.1.right" timestamp="1666345429989">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="288" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666339916840" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1666324659382">
+    <state width="1237" height="288" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1666345429989" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1666375355339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1666324659382" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1666375355339" />
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1666343131055">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
